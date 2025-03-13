@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+read -p "Enter value for a: " a
+read -p "Enter value for b: " b
+read -p "Enter value for c: " c
+read -p "Enter value for d: " d
+
+
+result=$((a * 20 - b * 2 + c / d))
+
+
+echo "The result of the expression (a*20-b*2+c/d) is: $result"
+
