@@ -5,3 +5,12 @@ if [ -d "path/to/your/file" ]; then
 else
     echo "It is not a directory."
 fi
+_____________________________________________________________
+#!/bin/bash
+
+if [ -d "vaishnavi" ]; then
+    echo "It is a directory."
+else
+    echo "It is not a directory."
+fi
+
