@@ -1,0 +1,16 @@
+Q:compare two files and determine if they are identical. If you'd also like to delete one of the files
+
+
+#!/bin/bash
+
+FILE1="date.sh"
+FILE2="date.sh"
+
+if cmp -s "date.sh" "date.sh"; then
+    echo "The files are identical."
+    echo "Deleting date.sh..."
+    rm "date.sh"
+else
+    echo "The files are different."
+fi
+
