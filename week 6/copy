@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Define source and destination files
+SOURCE_FILE="fact.sh"
+DESTINATION_FILE="hello.sh"
+
+# Check if the source file exists
+if [ -e "hello.sh" ]; then
+    echo "Source file found. Copying content..."
+    cp "fact.sh" "hello.sh"
+    echo "Content has been copied to hello.sh."
+else
+    echo "Source file does not exist. Please check the file path."
+fi
+
